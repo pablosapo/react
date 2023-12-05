@@ -10,6 +10,7 @@
 .contenedor-detalle-personal{
     display: flex;
     flex-direction: column;
+    width: 33%;
     justify-content: center;
     align-items: center;
     align-content: center;

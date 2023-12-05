@@ -9,6 +9,7 @@
 
 .contenedor-personal li {
     width: 33%;
+    height: 200px;
     margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
