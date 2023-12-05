@@ -1,0 +1,77 @@
+    const DatosProductos = [
+        {
+        nombre: 'Celular',
+        detalle: 'Galaxy A04e 32GB Color Negro',
+        marca: 'Samsung',
+        precio: '$106.399',
+        stock: '50',
+        imagen: 'celular',
+        codigo: '001',
+        },
+        {
+        nombre: 'Tablet',
+        detalle: 'Tablet Samsung Galaxy Tab A7 Lite - Plateado',
+        marca: 'Samsung',
+        precio: '$130.499',
+        stock: '150',
+        imagen: 'tablet',
+        codigo: '002',
+        },
+        {
+        nombre: 'Audifono',
+        detalle: 'Auriculares Bluetooth HD Inalambricos ',
+        marca: 'Huawei',
+        precio: '$58.999',
+        stock: '350',
+        imagen: 'audifono',
+        codigo: '003',
+        },
+        {
+        nombre: 'Notebook',
+        detalle: 'Notebook Asus VivoBook 15.6" Ryzen 5 8GB 256GB SSD',
+        marca: 'Asus', 
+        precio: '$1.049.999',
+        stock: '100',
+        imagen: 'notebook',
+        codigo: '004',
+        },
+        {
+        nombre: 'Reloj',
+        detalle: 'Reloj Inteligente Smartwatch Huawei Watch Fit',
+        marca: 'Huawei',
+        precio: '$89.999',
+        stock: '200',
+        imagen: 'reloj',
+        codigo: '005',
+        },
+        {
+        nombre: 'Consola',
+        detalle: 'Consola Nintendo Switch Lite Azul',
+        marca: 'Nintendo',
+        precio: '$269.999',
+        stock: '450',
+        imagen: 'consola',
+        codigo: '006',
+        },
+        {
+            nombre: 'Asistente Virtual',
+            detalle: 'Asistente Virtual Google Nest Mini 2da Generación',
+            marca: 'Google',
+            precio: '$39.999',
+            stock: '1000',
+            imagen: 'asistente',
+            codigo: '007',
+        },
+        {
+            nombre: 'Parlante Protable',
+            detalle: 'Parlante Philco Djp10p Portátil Con Bluetooth 220v',
+            marca: 'Philco',
+            precio: '$38.999',
+            stock: '5000',
+            imagen: 'parlante',
+            codigo: '008',
+        }
+
+    ];
+
+    export default DatosProductos;

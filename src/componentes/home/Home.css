@@ -1,0 +1,55 @@
+#root{
+    background-color: #757575;
+}
+
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 950px;
+  text-align: center;
+  background-color: #757575;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.productos {
+  flex: 0 1 calc(25% - 40px);
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  height: 400px;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.productos img {
+  
+  margin-bottom: 5px;
+}
+
+.boton-producto{
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  transition: all 0.3s ease;
+}
+
+.boton-producto:hover {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+
+

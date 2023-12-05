@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-registro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    text-align: center;
+}
+form{
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+form h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+form input:focus{
+    border-color: #ff0000;
+    box-shadow: 0 0 10px rgba(255,0,0,0.5);
+    outline: none;
+}
+
+form input[type="submit"]{
+    background: #ff0000;
+    color: #fff;
+    border: none;
+}
+
+form input[type="submit"]:hover{
+    background: #ff0000;
+    cursor: pointer;
+}
+
+.boton-registro{
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    transition: all 0.3s ease;
+}
+
+.boton-registro:hover{
+    background-color: #ff0000;
+    color: #fff;
+}
+
+
+

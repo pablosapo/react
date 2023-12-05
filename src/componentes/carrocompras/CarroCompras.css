@@ -1,0 +1,72 @@
+img{
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contenedor-CarroCompra{
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 350px;
+
+}
+
+.carro-compras{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carro{
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carro img{
+    width: 150px;
+    height: 120px;
+}
+
+.carro h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.carro p{
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+.link-carro{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
