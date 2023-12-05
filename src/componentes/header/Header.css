@@ -6,3 +6,9 @@
     width: 100%;
     font-size: 0.8rem;
 }
+
+@media(max-width: 786px) {
+    .header{
+        font-size: 0.6rem;
+    }
+}
