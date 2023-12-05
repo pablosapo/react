@@ -51,3 +51,11 @@
     background-color: #000000;
     color: #ffffff;
 }
+
+@media(max-width: 786px) {
+
+.contenedor-detalle-personal{
+    width: 80%;
+}
+
+}

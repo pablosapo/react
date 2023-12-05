@@ -41,3 +41,14 @@
     background-color: #000000;
     color: #fff;
 }
+
+@media(max-width: 786px) {
+
+    .contenedor-personal li {
+
+        width: 80%;
+
+    }
+
+
+}

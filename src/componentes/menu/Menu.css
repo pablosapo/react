@@ -58,8 +58,13 @@
 }
 
 .menu ul li a{
-    font-size: 14px;
+    font-size: 12px;
 
+}
+
+.menu ul li {
+    margin-left: 1px;
+    
 }
 
 }
