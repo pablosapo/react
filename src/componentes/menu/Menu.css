@@ -4,9 +4,13 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 10px;
+    align-items: center;
     width: 100%;
-
+    padding-top: 10px;
+    padding-bottom: 10px;  
+}
+.menu img{
+   width: 70%;
 }
 
 .menu a {
@@ -44,4 +48,17 @@
 .menu ul li:active {
     background-color: rgb(0, 64, 255);
     padding: 5px;
+}
+
+@media(max-width: 786px) {
+
+.menu img{
+    display: none;
+}
+
+.menu ul li a{
+    font-size: 12px;
+
+}
+
 }
