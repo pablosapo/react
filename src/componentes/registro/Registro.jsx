@@ -74,16 +74,13 @@ const Registro = () => {
           />
         </div>
         <div>
-          <label htmlFor="sexo"></label>
-          <input
-            type="text"
-            id="sexo"
-            name="sexo"
-            value={formData.sexo}
-            onChange={handleInputChange}
-            placeholder="Ingrese su sexo"
-          />
-        </div>
+             <label htmlFor="sexo"></label>
+             <select className='imput-sexo' name="sexo" value={formData.sexo} onChange={handleInputChange}>
+             <option value="">Sexo</option>
+             <option value="femenino">Femenino</option>
+             <option value="masculino">Masculino</option>
+             </select>
+      </div>
         <div>
           <label htmlFor="corro"></label>
           <input
