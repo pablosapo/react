@@ -7,8 +7,8 @@ const Menu = () =>{
         
         <nav className="menu">
         <div>
-                <img src={Logo} alt="Logo" />
-            </div>
+              <Link to="/"> <img src={Logo} alt="Logo" /></Link>
+        </div>
         <ul>
             <li> <Link to="/"> Home</Link> </li>
             <li> <Link to="/carrocompras"> Productos</Link> </li>

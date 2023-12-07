@@ -23,7 +23,7 @@
 .carro{
     display: inline-block;
     width: 250px;
-    height: 300px;
+    height: 370px;
     margin: 20px;
     padding: 20px 50px;
     justify-content: center;
@@ -32,6 +32,16 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carro-precio{
+    font-weight: bold;
+}
+
+.carro-compras h4{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 15px;
 }
 
 .carro img{
