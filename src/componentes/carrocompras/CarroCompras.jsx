@@ -31,7 +31,7 @@ function CarroCompras() {
                     {carrocompras.map((carrocompra) => (
                         <div key={carrocompra.codigo} className="carro">
                             <h2>{carrocompra.nombre}</h2>
-                            <p>{carrocompra.detalle}</p>
+                            <p className="p-detalle-carro">{carrocompra.detalle}</p>
                             <p>Marca: {carrocompra.marca}</p>
                             <img src={carrocompra.imagenes} alt="{carrocompra.imagen}" />
                             <h4>Precio: {carrocompra.precio}</h4>
