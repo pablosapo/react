@@ -22,7 +22,7 @@
 
 .carro{
     display: inline-block;
-    width: 250px;
+    width: 350px;
     height: 420px;
     margin: 20px;
     padding: 20px 50px;
@@ -80,9 +80,9 @@
 .descuento{
     background-color: red;
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 5px;
     border: 1px solid red;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
