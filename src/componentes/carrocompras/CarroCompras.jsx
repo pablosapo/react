@@ -35,6 +35,9 @@ function CarroCompras() {
                             <p>Marca: {carrocompra.marca}</p>
                             <img src={carrocompra.imagenes} alt="{carrocompra.imagen}" />
                             <h4>Precio: {carrocompra.precio}</h4>
+                            <div className="descuento">
+                                <h5>Descuento: {carrocompra.descuento}</h5>
+                            </div>
 
                         </div>
                     ))}

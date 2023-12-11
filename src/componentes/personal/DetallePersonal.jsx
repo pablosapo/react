@@ -41,7 +41,7 @@ function DetallePersonal() {
       <p>{persona.address.street}, {persona.address.city}</p>
       <h2>Teléfono:</h2>
       <p>{persona.phone}</p>
-      <h2>Empresa</h2>
+      <h2>Empresa:</h2>
       <p>{persona.company.name}, {persona.company.catchPhrase}, {persona.company.bs}</p>
       <div>
       <button className='boton-detalle-personal'><Link to="/Personal"> Volver Personal </Link></button>
